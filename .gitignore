@@ -1,0 +1,10 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment & credentials
+.env
+.env.*
+
+.python*
