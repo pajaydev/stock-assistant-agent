@@ -2,16 +2,24 @@
 
 📈 AI-powered stock assistant using [**Strands Agent**](https://strandsagents.com/latest/) that analyzes stocks using real-time web data and financial insights.
 
+![Stock Assistant](stock-assistant.png)
+
 ## 📦 Prerequisites
 
-- [`uv`](https://github.com/astral-sh/uv) installed  
+ - Install [`uv`](https://github.com/astral-sh/uv)  
 ```bash
 curl -Ls https://astral.sh/uv/install.sh | sh
 ```
+- AWS Account with Bedrock access 
 
-## Quick Start
+## 🚀 Quick Start
 
 1. Clone the repository
+
+```bash
+git clone https://github.com/pajaydev/stock-assistant-agent.git
+cd stock-assistant-agent
+```
 
 2. Set up Python virtual environment
 
@@ -41,7 +49,7 @@ streamlit run stock_assistant_agent.py
 
 6. Open http://localhost:8501
 
-## Usage
+## 🛠️ Usage
 
 Enter your investment query (e.g., "Should I buy AAPL stock?") and get structured analysis with:
 - Financial metrics
